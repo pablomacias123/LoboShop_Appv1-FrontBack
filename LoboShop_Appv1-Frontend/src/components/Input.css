@@ -1,0 +1,13 @@
+/* Estilos para el componente Input */
+
+.input-required {
+  color: var(--color-danger);
+  margin-left: var(--spacing-xs);
+}
+
+.input-error {
+  padding-left: var(--spacing-md);
+  color: var(--color-danger);
+  font-size: var(--font-size-sm);
+}
+

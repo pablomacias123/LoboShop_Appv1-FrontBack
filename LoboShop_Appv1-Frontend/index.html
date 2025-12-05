@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    
+    <!-- SEO Meta Tags -->
+    <title>LoboShop - Compra y Vende Productos de Segunda Mano</title>
+    <meta name="description" content="LoboShop es una plataforma para comprar y vender productos de segunda mano. Publica tus productos y encuentra las mejores ofertas. Marketplace confiable y seguro." />
+    <meta name="keywords" content="comprar, vender, productos, segunda mano, marketplace, LoboShop, productos usados, ofertas, compra venta" />
+    <meta name="author" content="LoboShop" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="language" content="Spanish" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta name="copyright" content="LoboShop" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://loboshop.app/" />
+    <meta property="og:title" content="LoboShop - Compra y Vende Productos" />
+    <meta property="og:description" content="Plataforma para comprar y vender productos de segunda mano. Publica tus productos y encuentra las mejores ofertas." />
+    <meta property="og:image" content="/icon-512x512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Logo de LoboShop" />
+    <meta property="og:site_name" content="LoboShop" />
+    <meta property="og:locale" content="es_ES" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://loboshop.app/" />
+    <meta name="twitter:title" content="LoboShop - Compra y Vende Productos" />
+    <meta name="twitter:description" content="Plataforma para comprar y vender productos de segunda mano" />
+    <meta name="twitter:image" content="/icon-512x512.png" />
+    <meta name="twitter:image:alt" content="Logo de LoboShop" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://loboshop.app/" />
+    
+    <base href="/" />
+    
+    <!-- Viewport and Display (Mobile First) -->
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Favicon and Icons -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    
+    <!-- iOS PWA Support -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="LoboShop" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#3880ff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1e1e1e" media="(prefers-color-scheme: dark)" />
+    <meta name="msapplication-TileColor" content="#3880ff" />
+    <meta name="msapplication-navbutton-color" content="#3880ff" />
+    
+    <!-- Preconnect and DNS Prefetch for Performance -->
+    <link rel="preconnect" href="http://localhost:3000" crossorigin />
+    <link rel="dns-prefetch" href="http://localhost:3000" />
+    
+    <!-- Preload recursos críticos -->
+    <link rel="preload" href="/favicon.png" as="image" />
+    <link rel="modulepreload" href="/src/main.tsx" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: http://localhost:3000 https:; font-src 'self' data:; connect-src 'self' http://localhost:3000 https:;" />
+    
+    <!-- Accessibility -->
+    <meta name="application-name" content="LoboShop" />
+    <meta name="screen-orientation" content="portrait" />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "LoboShop",
+      "description": "Plataforma para comprar y vender productos de segunda mano",
+      "url": "https://loboshop.app/",
+      "applicationCategory": "ShoppingApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "MXN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div class="noscript-message">
+        <h1>JavaScript Requerido</h1>
+        <p>Esta aplicación requiere JavaScript para funcionar correctamente. Por favor, habilita JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
+    <div id="root" role="main" aria-label="Aplicación LoboShop"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.login-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: var(--ion-color-primary);
+}
+
+.logo-container p {
+  color: var(--ion-color-medium);
+  font-size: 1rem;
+}
+
+.link {
+  color: var(--ion-color-primary);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--ion-color-primary-shade);
+}
+
+ion-item {
+  margin-bottom: 10px;
+}

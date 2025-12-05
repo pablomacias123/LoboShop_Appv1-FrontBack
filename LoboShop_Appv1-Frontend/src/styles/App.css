@@ -1,0 +1,21 @@
+/* Estilos específicos del componente App */
+
+.app-loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: var(--color-light);
+}
+
+.app-loading-spinner {
+  transform: scale(2);
+}
+
+.app-loading-text {
+  margin-top: var(--spacing-lg);
+  color: var(--color-medium);
+  font-size: var(--font-size-base);
+}
+

@@ -1,0 +1,77 @@
+{
+  "short_name": "LoboShop",
+  "name": "LoboShop - Compra y Vende Productos",
+  "description": "Plataforma para comprar y vender productos de segunda mano. Publica tus productos y encuentra las mejores ofertas.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512/512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512/512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#3880ff",
+  "background_color": "#ffffff",
+  "categories": ["shopping", "marketplace", "business"],
+  "lang": "es",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Ver Productos",
+      "short_name": "Productos",
+      "description": "Explorar todos los productos disponibles",
+      "url": "/productos",
+      "icons": [{ "src": "/favicon.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Crear Producto",
+      "short_name": "Crear",
+      "description": "Publicar un nuevo producto",
+      "url": "/crear-producto",
+      "icons": [{ "src": "/favicon.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Mis Productos",
+      "short_name": "Mis Productos",
+      "description": "Ver mis productos publicados",
+      "url": "/mis-productos",
+      "icons": [{ "src": "/favicon.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Perfil",
+      "short_name": "Perfil",
+      "description": "Ver mi perfil de usuario",
+      "url": "/profile",
+      "icons": [{ "src": "/favicon.png", "sizes": "512x512" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "related_applications": [],
+  "share_target": {
+    "action": "/compartir",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "nombre",
+      "text": "descripcion",
+      "url": "url",
+      "files": [
+        {
+          "name": "imagen",
+          "accept": ["image/*"]
+        }
+      ]
+    }
+  }
+}

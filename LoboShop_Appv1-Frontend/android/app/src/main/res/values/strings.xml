@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LoboShop</string>
+    <string name="title_activity_main">LoboShop</string>
+    <string name="package_name">com.rodrigovillalpando.loboshop</string>
+    <string name="custom_url_scheme">com.rodrigovillalpando.loboshop</string>
+</resources>

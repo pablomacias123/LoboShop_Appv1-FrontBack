@@ -1,0 +1,29 @@
+.error-message {
+  color: var(--ion-color-danger);
+  font-size: 0.85rem;
+  padding: 5px 16px;
+  margin-bottom: 10px;
+}
+
+.publish-button {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+ion-item {
+  margin-bottom: 15px;
+}
+
+ion-card {
+  margin-bottom: 20px;
+}
+
+/* Clases para reemplazar estilos inline */
+.required-field-marker {
+  color: var(--color-danger);
+}
+
+.hidden-input {
+  display: none;
+}
