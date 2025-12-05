@@ -174,4 +174,3 @@ export const productService = {
 };
 
 export default api;
-
